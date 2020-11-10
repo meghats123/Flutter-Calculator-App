@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
                   int result=getnum1+getnum2;
                   print(result);
                 },
-                  color: Colors.deepOrange,
+                  color: Colors.red,
                   child: Text("ADD"),
                 ),
                 SizedBox(height: 10.0,),
@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
                   int result=getnum1-getnum2;
                   print(result);
                 },
-                  color: Colors.deepOrange,
+                  color: Colors.red,
                   child: Text("SUB"),
                 ),
                 SizedBox(height: 10.0,),
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
                   print(result);
 
                 },
-                  color: Colors.deepOrange,
+                  color: Colors.red,
                   child: Text("MUL"),
                 ),
                 SizedBox(height: 10.0,),
